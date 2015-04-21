@@ -1,5 +1,5 @@
 class CreateQuestions < ActiveRecord::Migration
-  def up #try change if up fails
+  def up
   	create_table :questions do |t|
   		t.string :label
 
