@@ -18,7 +18,7 @@ Rabl.register!
 
 #Required routes
 require_relative 'routes/questions'
-require_relative 'routes/questions'
+require_relative 'routes/answers'
 
 #Require models
 require_relative 'models/questions'

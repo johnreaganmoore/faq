@@ -1,0 +1,7 @@
+%form{:action => "/answers/new", :method => "post"}
+  %label{:for => "Answer"} Answer:
+  %br/
+  %input#text{:name => "text", :type => "text"}/
+  %input#question_id{:name => "question_id", :type => "integer"}/
+  %br/
+  %button{:type => "submit"} Save
